@@ -1,0 +1,21 @@
+[project]
+name = "image-classifier"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "secret-lettuce27", email = "adityamukhe@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "opencv-python>=5.0.0.93",
+    "streamlit>=1.63.0",
+    "tensorflow>=2.21.0",
+]
+
+[project.scripts]
+image-classifier = "image_classifier:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
