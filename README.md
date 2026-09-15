@@ -10,11 +10,13 @@ A web app built with **Streamlit** and **MobileNetV2** (pre-trained on ImageNet)
 ## How to Run Locally
 
 1. Clone the repo:
-   git clone https://github.com/YOUR_USERNAME/ai-image-classifier.git
-   cd ai-image-classifier
+   git clone https://github.com/secret-lettuce27/ai_image_classifier.git
+   cd ai_image_classifier
 
-2. Install dependencies:
-   pip install -r requirements.txt
 
-3. Run the app:
-   streamlit run app.py
+2. Run the app:
+   A. using uv (recommended)
+      uv run streamlit run main.py
+   B. using pip
+      pip install -r requirements.txt
+      streamlit run main.py
